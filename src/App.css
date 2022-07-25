@@ -1,41 +1,94 @@
-#root {
-  max-width: 1280px;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 550px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+nav {
+  background-color: #21222A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 91px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo-image {
+  width: 28.93px;
+  height: 28.93px;
+  margin-left: 26px;
+  margin-top: 31px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.logo-title {
+  font-size: 22.25px;
+  font-weight: 700;
+  line-height: 26.93px;
+  color: #61DAFB;
+  margin-top: 31px;
+  margin-left: 6.68px;
 }
 
-.card {
-  padding: 2em;
+nav .logo {
+  display: flex;
 }
 
-.read-the-docs {
-  color: #888;
+nav h4 {
+  color: #DEEBF8;
+  margin-right: 27px;
+  font-weight: 600;
+}
+
+main {
+  width: 550px;
+  height: 459px;
+  background-color: #282D35;
+  position: absolute;
+  top: 91px;
+}
+
+h1 {
+  margin-top: 57px;
+  margin-left: 27px;
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+  font-style: normal;
+  color: #FFF;
+}
+
+ul {
+  width: 390px;
+  margin-left: 51px;
+  list-style-type: disc;
+}
+
+li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFF;
+  margin-bottom: 20.36px;
+}
+
+li::marker {
+  color: #61DAFB;
+  font-size: 1.6rem;
+}
+
+.half {
+  position: absolute;
+  width: 131px;
+  height: 263px;
+  left: 418px;
+  top: 100px;
 }
